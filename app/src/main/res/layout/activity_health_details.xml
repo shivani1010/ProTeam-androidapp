@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:text="Health Details"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Body Temperature"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+    <EditText
+        android:id="@+id/edt_body_temp"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:inputType="number"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brief Details"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+    <EditText
+        android:id="@+id/edt_symptoms"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:inputType="textMultiLine"
+        android:layout_gravity="top|left"
+        android:gravity="top|left"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+
+    <TextView
+        android:id="@+id/txt_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@color/dark_blue"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+
+
+</LinearLayout>

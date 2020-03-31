@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:text="Register"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Firstname"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:inputType="text"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Middlename"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+    <EditText
+        android:id="@+id/edt_mname"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:inputType="text"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Lastname"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    />
+    <EditText
+        android:id="@+id/edt_lame"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:inputType="text"
+        android:background="@android:drawable/editbox_background_normal"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="State"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    />
+    <TextView
+        android:id="@+id/edt_state"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:drawable/editbox_background_normal"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="City"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    />
+    <TextView
+        android:id="@+id/edt_city"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@color/dark_blue"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+
+</LinearLayout>
+</ScrollView>

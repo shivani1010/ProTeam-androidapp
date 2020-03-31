@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/card1"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:background="@drawable/card_3"
+                android:elevation="8dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_width="100dp">
+
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_height="70dp"
+                    android:layout_width="70dp"
+                    android:src="@drawable/ic_local_hospital_black_24dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/health_details"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/card5"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:background="@drawable/card_5"
+                android:elevation="8dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_width="100dp">
+
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_height="70dp"
+                    android:layout_width="70dp"
+                    android:src="@drawable/ic_file_upload_black_24dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/upload_selfie"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/card3"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:background="@drawable/card_1"
+                android:elevation="8dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_width="100dp">
+
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_height="70dp"
+                    android:layout_width="70dp"
+                    android:src="@drawable/ic_add_alert_black_24dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/raise_alert"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/card4"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:background="@drawable/card_2"
+                android:elevation="8dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_width="100dp">
+
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_height="70dp"
+                    android:layout_width="70dp"
+                    android:src="@drawable/ic_person_pin_black_24dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/raise_request"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/card6"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:background="@drawable/card_6"
+                android:elevation="8dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_width="100dp">
+
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_height="70dp"
+                    android:layout_width="70dp"
+                    android:src="@drawable/ic_assignment_black_24dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/reports"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/card7"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:background="@drawable/card_7"
+                android:elevation="8dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_width="100dp">
+
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_height="70dp"
+                    android:layout_width="70dp"
+                    android:src="@drawable/ic_settings_black_24dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/settings"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/card8"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:background="@drawable/card_8"
+                android:elevation="8dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_width="100dp">
+
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_height="70dp"
+                    android:layout_width="70dp"
+                    android:src="@drawable/ic_settings_power_black_24dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Logout"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:text="Raise Request"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search person by name/Mobile Number"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:queryHint="Search Here"
+        android:iconifiedByDefault="false"
+        android:layout_gravity="center"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_alignParentTop="true"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        tools:context=".ProfileActivity">
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name : "
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State : "
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/txt_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City : "
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address : "
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@color/dark_blue"
+
+        />
+
+
+</LinearLayout>
